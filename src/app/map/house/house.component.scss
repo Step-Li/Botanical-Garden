@@ -1,0 +1,70 @@
+$bubbleColor: #ffe2c1;
+$bubbleColor: white;
+.house {
+  position: absolute;
+  // transform: translate(-50%,-50%) scale(0.5, 0.5);
+  left: 0;
+  top: 0;
+  z-index: 2;
+  -webkit-filter: drop-shadow(5px 5px 5px #666);
+  filter: drop-shadow(5px 5px 5px #666);
+
+
+  &__title {
+    opacity: 0;
+    transition: 0.2s;
+    position: absolute;
+    font-size: 20pt;
+    z-index: 3;
+    top: -20px;
+    left: calc(100% - 20px);
+    text-align: center;
+    transform: translate(0, -100%);
+    background: $bubbleColor;
+    border-radius: 5px;
+    padding: 10px;
+    pointer-events: none;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      width: 0;
+      height: 0;
+      top: 100%;
+      left: 5px;
+      z-index: -1;
+      transform: translateY(-40px) scale(0.5);
+      border-left: 70px solid;
+      border-top: 35px solid;
+      border-right: 35px solid;
+      border-bottom: 50px solid;
+      border-color: transparent transparent transparent $bubbleColor;
+    }
+
+
+  }
+
+
+
+  &__img:hover + &__title {
+    opacity: 1;
+  }
+}
+.active {
+  img {opacity: 1;}
+  .house__img:hover {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+.selected {
+  img {
+    opacity: 1;
+
+}
+  -webkit-filter: drop-shadow(5px 5px 5px seagreen);
+  filter: drop-shadow(5px 5px 5px seagreen);
+  .house__title {
+    opacity: 1;
+  }
+}

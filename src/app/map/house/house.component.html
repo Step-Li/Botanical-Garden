@@ -1,0 +1,5 @@
+<div [class]="(site ?'house active': 'house') + (data.id == active ? ' selected': '')" (mouseleave)="mouseLeave()" (mouseenter)="mouseEnter()"
+     [ngStyle]="{'transform': 'translate(calc(' + data.coordinates.x/2 + 'px - 50%), calc(' + data.coordinates.y/2 + 'px - 50%)) scale('+data.scale/2+')'}">
+  <img class="house__img" [src]="data.url" [alt]="data.name" (click)="onHouseClick()" >
+  <div class="house__title">{{data.name}}</div>
+</div>

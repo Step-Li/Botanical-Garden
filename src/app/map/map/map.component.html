@@ -1,0 +1,62 @@
+<div class="map">
+  <ng-container *ngFor="let item of houses">
+    <app-house [data]="item" [active]="active" (onChanged)="onChanged($event)"></app-house>
+  </ng-container>
+  <ng-container *ngFor="let item of marks">
+    <app-mark [data]="item" [active]="active" (onChanged)="onChanged($event)"></app-mark>
+  </ng-container>
+
+  <div class="legend">
+  <div [class]="active == 5 ?'legend-item active' : 'legend-item'" (mouseleave)="mouseLeave()" (mouseenter)="mouseEnter(5)">
+    <div class="square" [style.background-color]="'#b2d0b6'"></div>
+    <img src="../../../assets/icons/grass.png">
+    <div class="title">Травянистые растения </div>
+  </div>
+  <div [class]="active == 6 ?'legend-item active' : 'legend-item'" (mouseleave)="mouseLeave()" (mouseenter)="mouseEnter(6)">
+    <div class="square" [style.background-color]="'#f99e67'"></div>
+    <img src="../../../assets/icons/children.png">
+    <div class="title">Детская площадка</div>
+  </div>
+  <div [class]="active == 8 ?'legend-item active' : 'legend-item'" (mouseleave)="mouseLeave()" (mouseenter)="mouseEnter(8)">
+    <div class="square" [style.background-color]="'#fdb9b6'"></div>
+    <img src="../../../assets/icons/japan.png">
+    <div class="title">Японский сад</div>
+  </div>
+  <div [class]="active == 7 ?'legend-item active' : 'legend-item'" (mouseleave)="mouseLeave()" (mouseenter)="mouseEnter(7)">
+    <div class="square" [style.background-color]="'#cea9ba'"></div>
+    <img src="../../../assets/icons/alp_mountain.png">
+    <div class="title">Альпийские горки</div>
+  </div>
+  <div [class]="active == 2 ?'legend-item active' : 'legend-item'" (mouseleave)="mouseLeave()" (mouseenter)="mouseEnter(2)">
+    <div class="square" [style.background-color]="'#fbc77c'"></div>
+    <img src="../../../assets/icons/disabled.png">
+    <div class="title">Сад для людей с ограниченными возможностями</div>
+  </div>
+</div>
+  <div class="legend little">
+    <div [class]="active == 4 ?'legend-item active' : 'legend-item'" (mouseleave)="mouseLeave()" (mouseenter)="mouseEnter(4)">
+      <img src="../../../assets/icons/caffe.png">
+      <div class="title">Кафе </div>
+    </div>
+    <div [class]="active == 1 ?'legend-item active' : 'legend-item'" (mouseleave)="mouseLeave()" (mouseenter)="mouseEnter(1)">
+      <img src="../../../assets/icons/toilet.png">
+      <div class="title">Туалет</div>
+    </div>
+    <div [class]="active == 3 ?'legend-item active' : 'legend-item'" (mouseleave)="mouseLeave()" (mouseenter)="mouseEnter(3)">
+      <img src="../../../assets/icons/alleya.png">
+      <div class="title">Центральная аллея</div>
+    </div>
+  </div>
+  <div class="legend-houses">
+    <ng-container *ngFor="let item of houses">
+      <div [class]="item.id == active? 'legend-houses-item active' : 'legend-houses-item'" (mouseenter)="mouseEnter(item.id)" (mouseleave)="mouseLeave()">
+        <img [src]="item.url">
+        <div class="legend-houses-title">{{item.name}}</div>
+      </div>
+    </ng-container>
+
+</div>
+
+
+
+</div>

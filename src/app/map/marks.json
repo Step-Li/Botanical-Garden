@@ -1,0 +1,83 @@
+[
+  {
+    "coordinates": {
+      "x": 486,
+      "y": 218
+    },
+    "url": "../../../assets/icons/toilet.png",
+    "name": "Туалет",
+    "id": 1
+  },
+  {
+    "coordinates": {
+      "x": 862,
+      "y": 641
+    },
+    "url": "../../../assets/icons/disabled.png",
+    "name": "Сад для людей с ограниченными возможностями",
+    "id": 2
+  },
+  {
+    "coordinates": {
+      "x": 1017,
+      "y": 754
+    },
+    "url": "../../../assets/icons/alleya.png",
+    "name": "Центральная аллея",
+    "id": 3
+  },
+  {
+    "coordinates": {
+      "x": 1005,
+      "y": 402
+    },
+    "url": "../../../assets/icons/alleya.png",
+    "name": "Центральная аллея",
+    "id": 3
+  },
+  {
+    "coordinates": {
+      "x": 1047,
+      "y": 194
+    },
+    "url": "../../../assets/icons/japan.png",
+    "name": "Японский сад",
+    "id": 8
+  },
+  {
+    "coordinates": {
+      "x": 770,
+      "y": 214
+    },
+    "url": "../../../assets/icons/caffe.png",
+    "name": "Кафе",
+    "id": 4
+  },
+  {
+    "coordinates": {
+      "x": 601,
+      "y": 130
+    },
+    "url": "../../../assets/icons/grass.png",
+    "name": "Травяные растения",
+    "id": 5
+  },
+  {
+    "coordinates": {
+      "x": 491,
+      "y": 326
+    },
+    "url": "../../../assets/icons/children.png",
+    "name": "Детская площадка",
+    "id": 6
+  },
+  {
+    "coordinates": {
+      "x": 634,
+      "y": 390
+    },
+    "url": "../../../assets/icons/alp_mountain.png",
+    "name": "Альпийские горки",
+    "id": 7
+  }
+]

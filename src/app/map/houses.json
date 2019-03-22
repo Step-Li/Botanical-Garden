@@ -1,0 +1,89 @@
+[
+  {
+    "coordinates": {
+      "x": 609,
+      "y": 591
+    },
+    "url": "../../../assets/art.png",
+    "name": "Творческий центр",
+    "scale": 0.8,
+    "siteUrl": "http://botsad-spb.com/ru/meropriyatiya/",
+    "id": 11
+  },
+  {
+    "coordinates": {
+      "x": 715,
+      "y": 95
+    },
+    "url": "../../../assets/museum.png",
+    "name": "Музей",
+    "scale": 0.9,
+    "siteUrl": "http://botsad-spb.com/ru/muzej",
+    "id": 21
+  },
+  {
+    "coordinates": {
+      "x": 1107,
+      "y": 677
+    },
+    "url": "../../../assets/besedka.png",
+    "name": "Беседка",
+    "scale": 0.9,
+    "siteUrl": "",
+    "id": 31
+  },
+  {
+    "coordinates": {
+      "x": 299,
+      "y": 451
+    },
+    "url": "../../../assets/herb.png",
+    "name": "Гербарий",
+    "scale": 0.9,
+    "siteUrl": "",
+    "id": 41
+  },
+  {
+    "coordinates": {
+      "x": 435,
+      "y": 259
+    },
+    "url": "../../../assets/greenhouse.png",
+    "name": "Зеленый домик",
+    "scale": 0.8,
+    "siteUrl": "",
+    "id": 51
+  },
+  {
+    "coordinates": {
+      "x": 911,
+      "y": 116
+    },
+    "url": "../../../assets/subtroporange.png",
+    "name": "Субтропическая оранжерея",
+    "scale": 1,
+    "siteUrl": "http://botsad-spb.com/ru/oranzherei/subtropiki/",
+    "id": 61
+  },
+  {
+    "coordinates": {
+      "x": 926,
+      "y": 224
+    },
+    "url": "../../../assets/rotonda.png",
+    "name": "Ротонда (Начало экскурсий)",
+    "scale": 0.7,
+    "siteUrl": "http://botsad-spb.com/ru/posetitelyam/ekskursii",
+    "id": 71
+  },  {
+  "coordinates": {
+    "x": 725,
+    "y": 375
+  },
+  "url": "../../../assets/palmorange.png",
+  "name": "Пальмовая оранжерея",
+  "scale": 0.95,
+  "siteUrl": "http://botsad-spb.com/ru/oranzherei/vodnye/bolshaya-palmovaya-oranzhereya",
+  "id": 81
+}
+]
